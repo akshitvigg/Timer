@@ -11,7 +11,7 @@ function App() {
   const [isDark, setIsDark] = useState(true);
 
   useEffect(() => {
-    // Dark mode effect
+
     if (isDark) {
       document.documentElement.classList.add("dark-mode");
     } else {
@@ -22,7 +22,7 @@ function App() {
   const changebgcolor = () => {
     setIsDark(!isDark);
   };
-
+    // improved the prev code
   return (
     <>
       <div style={{ display: "flex", justifyContent: "end", margin: 50 }}>
